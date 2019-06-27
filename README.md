@@ -2,8 +2,9 @@
 AIA SG logger
 
    #logback
-   #Logback’s Core Features & Advantages
-    
+   
+   Logback’s Core Features & Advantages
+   
     1. faster execution compared to log4j
     2. native support for slf4j, which makes it easy to switch to a different logging framework, should that be necessary later on
     3. conditional processing of the defined configuration
@@ -13,7 +14,7 @@ AIA SG logger
     7. HTTP-access logging
     8. recovery from I/O failures
     
-   #The Logback project is organized in main 3 modules:
+   The Logback project is organized in main 3 modules:
      
     1. logback-core – contains the basic logging functionality
     2. logback-classic – contains additional logging improvements, such as slf4j support
@@ -22,6 +23,9 @@ AIA SG logger
   link : https://stackify.com/logging-logback/
   
    # Log4j 2
+   
+   The Log4j API has several advantages over SLF4J
+   
     1. The Log4j API supports logging Messages instead of just Strings
     2. The Log4j API supports lambda expressions
     3. The Log4j API provides many more logging methods than SLF4J 
